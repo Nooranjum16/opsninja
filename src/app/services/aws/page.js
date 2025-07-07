@@ -183,61 +183,6 @@ export default function page() {
           ></path>
         </svg>
       </div>
-      {/* <section className="bg-[#D6E5FF] py-16 px-4">
-        <h2 className="text-3xl font-bold text-center text-[#03143B] mb-12">
-          Why Us?
-        </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-6xl mx-auto">
-          <div className="flex flex-col items-center text-center p-6 bg-white rounded-2xl shadow">
-            <span className="text-6xl mb-4" role="img" aria-label="Planning">
-              📝
-            </span>
-            <h3 className="text-lg font-semibold text-[#03143B] mb-2">
-              1. Planning and Strategy
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Personalized Cloud Adoption Frameworks, step-by-step plans, and
-              technical strategy for your project.
-            </p>
-          </div>
-          <div className="flex flex-col items-center text-center p-6 bg-white rounded-2xl shadow">
-            <span className="text-6xl mb-4" role="img" aria-label="Discovery">
-              🔎
-            </span>
-            <h3 className="text-lg font-semibold text-[#03143B] mb-2">
-              2. Discovery and Assessment
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Workshops, interviews, and evaluations to understand your needs
-              and current setup, plus hands-on onboarding.
-            </p>
-          </div>
-          <div className="flex flex-col items-center text-center p-6 bg-white rounded-2xl shadow">
-            <span className="text-6xl mb-4" role="img" aria-label="Execution">
-              ⚙️
-            </span>
-            <h3 className="text-lg font-semibold text-[#03143B] mb-2">
-              3. Execution
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Automated solutions, secure and dependable setups, and
-              process-driven project management for fast delivery.
-            </p>
-          </div>
-          <div className="flex flex-col items-center text-center p-6 bg-white rounded-2xl shadow">
-            <span className="text-6xl mb-4" role="img" aria-label="Launch">
-              🚀
-            </span>
-            <h3 className="text-lg font-semibold text-[#03143B] mb-2">
-              4. Launch and Scale
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Ongoing management, scaling, cost optimization, security checks,
-              and continuous improvement for your cloud workloads.
-            </p>
-          </div>
-        </div>
-      </section> */}
 
       {/* About Us */}
       <section className="bg-[#D6E5FF] py-16 px-4">
