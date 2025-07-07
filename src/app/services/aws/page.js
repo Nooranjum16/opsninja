@@ -88,10 +88,10 @@ export default function page() {
         </div>
       </section>
 
-      {/* Software's We Work With */}
+      {/* Softwares We Work With */}
       <section className="bg-white py-8 my-4">
         <h2 className="text-2xl font-bold text-center text-[#1e293b] mb-6">
-          Software's We Work With
+          Software &apos; We Work With
         </h2>
         <div className="flex flex-wrap justify-center items-center gap-8 max-w-4xl mx-auto text-5xl">
           <span title="AWS">☁️</span>
@@ -168,10 +168,7 @@ export default function page() {
       </section> */}
 
       {/* Why Us*/}
-      <div
-        className="elementor-shape elementor-shape-top"
-        data-negative="false"
-      >
+      <div className="elementor-shape elementor-shape-top">
         <svg
           fill="#D6E5FF"
           xmlns="http://www.w3.org/2000/svg"
