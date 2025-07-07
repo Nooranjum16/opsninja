@@ -102,7 +102,7 @@ export default function page() {
       </section>
 
       {/* Our Services */}
-      <section id="our-services" className="bg-white py-16 px-4">
+      {/* <section id="our-services" className="bg-white py-16 px-4">
         <h2 className="text-3xl font-bold text-center text-[#1e293b] mb-12">
           Our Services
         </h2>
@@ -165,9 +165,9 @@ export default function page() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* Why Us / Our Approach */}
+      {/* Why Us*/}
       <div
         className="elementor-shape elementor-shape-top"
         data-negative="false"
