@@ -165,7 +165,7 @@ export default function Home() {
           </p>
           <Link href="/">
             <button className="bg-[#FABB05] py-2 rounded-full text-lg text-white font-bold px-6 hover:bg-[#61CE70] transition">
-              Let's chat
+              Let&apos;s chat
             </button>
           </Link>
         </section>
