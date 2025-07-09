@@ -183,7 +183,7 @@ export default function GCPUnifiedPage() {
                   defaultValue=""
                 >
                   <option value="" disabled>
-                    Country / Region *
+                    Country / Region
                   </option>
                   <option>Afghanistan</option>
                   <option>Albania</option>
@@ -241,7 +241,7 @@ export default function GCPUnifiedPage() {
                   <option>Equatorial Guinea</option>
                   <option>Eritrea</option>
                   <option>Estonia</option>
-                  <option>Eswatini (fmr. 'Swaziland')</option>
+                  <option>Eswatini (fmr &apos Swaziland &apos)</option>
                   <option>Ethiopia</option>
                   <option>Fiji</option>
                   <option>Finland</option>
