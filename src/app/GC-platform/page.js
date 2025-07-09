@@ -11,9 +11,9 @@ export default function GCPUnifiedPage() {
             Google Cloud Platform
           </h1>
           <p className="text-gray-200 text-lg max-w-2xl mx-auto mb-8">
-            Build, deploy, and scale your applications, websites, and services
-            with ease on the same robust infrastructure that powers Google
-            itself.
+            Build &apos deploy &apos and scale your applications &apos websites,
+            and services with ease on the same robust infrastructure that powers
+            Google itself.
           </p>
           <div className="flex flex-col md:flex-row justify-center gap-4 mb-8">
             <Link
@@ -28,7 +28,7 @@ export default function GCPUnifiedPage() {
               target="_blank"
               className="inline-block bg-transparent text-white font-bold py-3 px-8 rounded-full border-2 border-white hover:bg-white hover:text-[#1e293b] transition-all duration-200 text-lg"
             >
-              30-days Free Trial
+              30days Free Trial
             </Link>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function GCPUnifiedPage() {
               Scalable virtual machines for all your workloads.
             </p>
             <p className="text-white font-semibold text-sm mb-4 text-center">
-              VMs | Autoscaling | Custom Images | Preemptible VMs
+              VMs &apos Autoscaling &apos Custom Images &apos Preemptible VMs
             </p>
             <Link
               href="#"
@@ -90,10 +90,10 @@ export default function GCPUnifiedPage() {
               Cloud Storage
             </h3>
             <p className="text-white/90 text-base mb-3 text-center">
-              Secure, durable, and scalable object storage.
+              Secure &apos durable &apos and scalable object storage.
             </p>
             <p className="text-white font-semibold text-sm mb-4 text-center">
-              Buckets | Lifecycle | Multi-region | Data Security
+              Buckets &apos Lifecycle &apos Multi-region &apos Data Security
             </p>
           </div>
           {/* Card 3 */}
@@ -111,7 +111,7 @@ export default function GCPUnifiedPage() {
               Managed Kubernetes for containerized apps.
             </p>
             <p className="text-white font-semibold text-sm mb-4 text-center">
-              GKE | CI/CD | Auto-upgrade | Multi-cluster
+              GKE &apos CI/CD &apos Auto-upgrade &apos Multi-cluster
             </p>
           </div>
           {/* Card 4 */}
@@ -129,7 +129,7 @@ export default function GCPUnifiedPage() {
               Analyze massive datasets with serverless analytics.
             </p>
             <p className="text-white font-semibold text-sm mb-4 text-center">
-              BigQuery | Dataflow | Looker | AI/ML
+              BigQuery &apos Dataflow &apos Looker &apos AI/ML
             </p>
           </div>
         </div>
@@ -225,7 +225,7 @@ export default function GCPUnifiedPage() {
                   <option>Comoros</option>
                   <option>Congo (Congo-Brazzaville)</option>
                   <option>Costa Rica</option>
-                  <option>Côte d'Ivoire</option>
+                  <option>Côte dIvoire</option>
                   <option>Croatia</option>
                   <option>Cuba</option>
                   <option>Cyprus</option>
