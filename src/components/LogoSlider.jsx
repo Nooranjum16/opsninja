@@ -5,18 +5,18 @@ import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const logos = [
-  { src: "/images/slider.png", alt: "Google Compute Engine" },
-  { src: "/images/slider.png", alt: "Google Compute Engine" },
-  { src: "/images/slider.png", alt: "Google Compute Engine" },
-  { src: "/images/slider.png", alt: "Google Compute Engine" },
-  { src: "/images/slider.png", alt: "Google Compute Engine" },
-  { src: "/images/slider.png", alt: "Google Compute Engine" },
-  { src: "/images/slider.png", alt: "Google Compute Engine" },
-  { src: "/images/slider.png", alt: "Google Compute Engine" },
-];
+// const logos = [
+//   { src: "/images/slider.png", alt: "Google Compute Engine" },
+//   { src: "/images/slider.png", alt: "Google Compute Engine" },
+//   { src: "/images/slider.png", alt: "Google Compute Engine" },
+//   { src: "/images/slider.png", alt: "Google Compute Engine" },
+//   { src: "/images/slider.png", alt: "Google Compute Engine" },
+//   { src: "/images/slider.png", alt: "Google Compute Engine" },
+//   { src: "/images/slider.png", alt: "Google Compute Engine" },
+//   { src: "/images/slider.png", alt: "Google Compute Engine" },
+// ];
 
-export default function LogoSlider() {
+export default function LogoSlider({ logos = [] }) {
   const settings = {
     dots: false,
     arrows: false,
@@ -40,16 +40,16 @@ export default function LogoSlider() {
   };
 
   return (
-    <div className="bg-[#f5f5fa] py-10 px-4">
+    <div className="py-10 px-4">
       <Slider {...settings}>
         {logos.map((logo, index) => (
           <div key={index} className="px-4">
-            <div className="bg-white shadow-md rounded-xl flex justify-center items-center h-24 px-6">
+            <div className="rounded-xl flex justify-center items-center  px-6">
               <Image
                 src={logo.src}
                 alt={logo.alt}
-                width={100}
-                height={60}
+                width={150}
+                height={150}
                 objectFit="contain"
               />
             </div>

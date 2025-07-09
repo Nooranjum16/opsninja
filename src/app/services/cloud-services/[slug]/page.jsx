@@ -1,9 +1,7 @@
 "use client";
-
 import React from "react";
 import { useParams, notFound } from "next/navigation";
 import { cloudData } from "@/APIdata/cloudData";
-
 // import icons dynamically
 import * as FaIcons from "react-icons/fa";
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";

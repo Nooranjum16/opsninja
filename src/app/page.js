@@ -34,7 +34,7 @@ export default function Home() {
               delaySpeed={1000}
             />
           </p>
-          <button className="bg-[#FABB05] py-2 rounded-full text-lg uppercase text-indigo-800 px-6 hover:bg-[#61CE70] transition">
+          <button className="bg-[#FABB05] py-2 rounded-br-xl rounded-tl-xl text-lg uppercase text-indigo-800 px-6 hover:bg-[#61CE70] transition">
             Get in touch with us
           </button>
         </section>
@@ -135,7 +135,7 @@ export default function Home() {
               </div>
 
               <Link href="/contact">
-                <button className="bg-[#FDC700] rounded-full px-5 py-2 hover:bg-[#76C293] font-bold text-lg uppercase">
+                <button className="bg-[#FDC700] hover:bg-[#61CE70] hover:cursor-pointer rounded-br-xl rounded-tl-xl text-[#524c4e] px-5 py-2 font-bold text-lg uppercase">
                   connect
                 </button>
               </Link>
@@ -164,7 +164,7 @@ export default function Home() {
             the cloud.
           </p>
           <Link href="/">
-            <button className="bg-[#FABB05] py-2 rounded-full text-lg text-white font-bold px-6 hover:bg-[#61CE70] transition">
+            <button className="bg-[#FABB05] hover:bg-[#61CE70] hover:cursor-pointer rounded-br-xl rounded-tl-xl text-[#524c4e] px-5 py-2 font-bold text-lg capitalize">
               Let&apos;s chat
             </button>
           </Link>
@@ -221,7 +221,7 @@ export default function Home() {
 
               <button
                 type="submit"
-                className="bg-[#FABB05] text-white font-bold py-3 px-6 rounded-full hover:bg-[#e0a704] transition duration-300"
+                className="bg-[#FABB05] hover:bg-[#61CE70] hover:cursor-pointer rounded-br-xl rounded-tl-xl text-[#101828] px-5 py-2  text-lg capitalize"
               >
                 Send Message
               </button>
