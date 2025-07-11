@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -111,7 +110,7 @@ function Navbar() {
               <div className="relative">
                 <button
                   onClick={toggleDropdown}
-                  className="flex items-center gap-1 hover:text-[#2f40b5] text-[#544C4A] font-bold text-base"
+                  className="flex items-center gap-1 hover:text-[#2f40b5] text-[#524c4e] text-base"
                 >
                   Cloud Services <FaChevronDown className="text-xs mt-0.5" />
                 </button>
@@ -119,37 +118,37 @@ function Navbar() {
                   <div className="absolute mt-4 bg-white text-[#03143B] p-6 rounded-xl shadow-2xl z-50 w-80">
                     <div className="flex flex-col space-y-4">
                       <Link
-                        href="/services/cloud-services/application-modernization"
+                        href="/cloud-services/application-modernization"
                         className="hover:text-[#34A853] transition font-medium"
                       >
                         Application Modernization
                       </Link>
                       <Link
-                        href="/services/cloud-services/data-modernization"
+                        href="/cloud-services/data-modernization"
                         className="hover:text-[#34A853] transition font-medium"
                       >
                         Data Modernization
                       </Link>
                       <Link
-                        href="/services/cloud-services/infrastructure-modernization"
+                        href="/cloud-services/infrastructure-modernization"
                         className="hover:text-[#34A853] transition font-medium"
                       >
                         Infrastructure Modernization
                       </Link>
                       <Link
-                        href="/services/cloud-services/cloud-security"
+                        href="/cloud-services/cloud-security"
                         className="hover:text-[#34A853] transition font-medium"
                       >
                         Cloud Security
                       </Link>
                       <Link
-                        href="/services/cloud-services/cloud-consulting"
+                        href="/cloud-services/cloud-consulting"
                         className="hover:text-[#34A853] transition font-medium"
                       >
                         Cloud Consulting
                       </Link>
                       <Link
-                        href="/services/cloud-services/managed-cloud-service"
+                        href="/cloud-services/managed-cloud-service"
                         className="hover:text-[#34A853] transition font-medium"
                       >
                         Managed Cloud as a Service
@@ -160,25 +159,25 @@ function Navbar() {
               </div>
               <Link
                 href="/GC-platform"
-                className="hover:text-[#2f40b5] text-[#544C4A] font-bold text-base"
+                className="hover:text-[#2f40b5] text-[#524c4e]  text-base"
               >
                 GC-Platform
               </Link>
               <Link
                 href="/aws"
-                className="hover:text-[#2f40b5] text-[#544C4A] font-bold text-base"
+                className="hover:text-[#2f40b5] text-[#524c4e] text-base"
               >
                 AWS
               </Link>
               <Link
                 href="/about"
-                className="hover:text-[#2f40b5] text-[#544C4A] font-bold text-base"
+                className="hover:text-[#2f40b5] text-[#524c4e] text-base"
               >
                 About
               </Link>
               <Link
                 href="/contact"
-                className="hover:text-[#2f40b5] text-[#544C4A] font-bold text-base"
+                className="hover:text-[#2f40b5] text-[#524c4e] text-base"
               >
                 Contact
               </Link>
@@ -207,7 +206,7 @@ function Navbar() {
                 href="https://calendly.com/opsninja/30min?month=2025-07"
                 target="_blank"
               >
-                <button className="mt-4 bg-[#FDC700] uppercase font-bold text-[#524C4E] py-3 px-7 rounded-br-xl rounded-tl-xl hover:bg-[#61CE70]">
+                <button className="mt-4 bg-[#FDC700] uppercase  text-[#524C4E] py-3 px-7 rounded-br-xl rounded-tl-xl hover:bg-[#61CE70]">
                   Schedule a call
                 </button>
               </Link>

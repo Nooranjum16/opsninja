@@ -202,10 +202,10 @@ export default function AboutUs() {
             Our Values
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8  ">
-            {ourValues.map((value, id) => {
+            {ourValues.map((value, index) => {
               return (
                 <div
-                  key={value.id}
+                  key={index}
                   className="text-white justify-between min-h-[180px] hover:cursor-pointer relative bg-gradient-to-r from-[#03143B] to-[#3a5ca8] rounded-2xl p-8 shadow-2xl flex flex-col items-center border-0 transition-all duration-300 hover:shadow-2xl hover:-translate-y-2  after:absolute after:top-6 after:left-6 after:text-6xl after:text-white/30 after:font-extrabold"
                 >
                   <h3 className="text-xl font-bold mb-2">{value.title}</h3>

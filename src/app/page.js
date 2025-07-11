@@ -1,11 +1,17 @@
-"use client";
 import Image from "next/image";
 import LogoSlider from "@/components/LogoSlider";
 import Link from "next/link";
-import { Typewriter } from "react-simple-typewriter";
 import { FiMapPin, FiMail } from "react-icons/fi";
+import TypewriterText from "@/components/Typewriter";
 
 export default function Home() {
+  const homelogos = [
+    { src: "/images/hlogo1.jpg", alt: "Google cloud" },
+    { src: "/images/hlogo2.jpg", alt: "Google cloud " },
+    { src: "/images/hlogo3.jpg", alt: "Google cloud" },
+    { src: "/images/hlogo4.jpg", alt: "Google cloud" },
+    { src: "/images/hlogo5.jpg", alt: "Google cloud" },
+  ];
   return (
     <>
       <main className="bg-[#F4F4FB] text-gray-900">
@@ -15,30 +21,18 @@ export default function Home() {
           className="min-h-screen bg-cover bg-repeat-no bg-position-center flex flex-col items-center justify-center text-center bg-yellow-200 text-white p-8"
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            <Typewriter
-              words={["Your Cloud. Our Expertise."]}
-              loop={1}
-              typeSpeed={40}
-              deleteSpeed={30}
-              delaySpeed={1000}
-            />
+            <TypewriterText text="Your Cloud. Our Expertise." />
           </h1>
           <p className="text-lg md:text-base mb-6 max-w-xl leading-relaxed">
-            <Typewriter
-              words={[
-                "OpsNinja is the path to modernize your IT infrastructure with cloud technology providing Google Cloud Platform professional services.",
-              ]}
-              loop={1}
-              typeSpeed={20}
-              deleteSpeed={30}
-              delaySpeed={1000}
-            />
+            <TypewriterText text="OpsNinja is the path to modernize your IT infrastructure with cloud technology providing Google Cloud Platform professional services." />
           </p>
-          <button className="bg-[#FABB05] py-2 rounded-br-xl rounded-tl-xl text-lg uppercase text-indigo-800 px-6 hover:bg-[#61CE70] transition">
-            Get in touch with us
-          </button>
+          <Link href="https://calendly.com/opsninja/30min?" target="blanck">
+            <button className="bg-[#FABB05] hover:cursor-pointer py-2 rounded-br-xl rounded-tl-xl text-lg uppercase text-indigo-800 px-6 hover:bg-[#61CE70] transition">
+              Get in touch with us
+            </button>
+          </Link>
         </section>
-        <LogoSlider />
+        <LogoSlider logos={homelogos} />
 
         {/* Services Section */}
         <section className="py-16 px-6 md:px-20 bg-gray-100">
@@ -74,68 +68,32 @@ export default function Home() {
               <div className="flex flex-wrap gap-10 my-8">
                 <div>
                   <p className="text-6xl font-bold">
-                    <Typewriter
-                      words={["20+"]}
-                      loop={1}
-                      typeSpeed={40}
-                      deleteSpeed={30}
-                      delaySpeed={1000}
-                    />
+                    <TypewriterText text="20+" />
                   </p>
                   <p className="text-sm text-[#3AAC62]">
-                    <Typewriter
-                      words={["Cloud Engineers"]}
-                      loop={1}
-                      typeSpeed={40}
-                      deleteSpeed={30}
-                      delaySpeed={1000}
-                    />
+                    <TypewriterText text="Cloud Engineers" />
                   </p>
                 </div>
                 <div>
                   <p className="text-6xl font-bold">
-                    <Typewriter
-                      words={["10+"]}
-                      loop={1}
-                      typeSpeed={40}
-                      deleteSpeed={30}
-                      delaySpeed={1000}
-                    />
+                    <TypewriterText text="10+" />
                   </p>
                   <p className="text-sm text-[#2F40B5]">
-                    <Typewriter
-                      words={["Customers Transformed"]}
-                      loop={1}
-                      typeSpeed={40}
-                      deleteSpeed={30}
-                      delaySpeed={1000}
-                    />
+                    <TypewriterText text="Customers Transformed" />
                   </p>
                 </div>
                 <div>
                   <p className="text-6xl font-bold">
-                    <Typewriter
-                      words={["200+"]}
-                      loop={1}
-                      typeSpeed={40}
-                      deleteSpeed={30}
-                      delaySpeed={1000}
-                    />
+                    <TypewriterText text="200+" />
                   </p>
                   <p className="text-sm text-[#fffff]">
-                    <Typewriter
-                      words={["Successful Projects"]}
-                      loop={1}
-                      typeSpeed={40}
-                      deleteSpeed={30}
-                      delaySpeed={1000}
-                    />
+                    <TypewriterText text="Successful Projects" />
                   </p>
                 </div>
               </div>
 
               <Link href="/contact">
-                <button className="bg-[#FDC700] hover:bg-[#61CE70] hover:cursor-pointer rounded-br-xl rounded-tl-xl text-[#524c4e] px-5 py-2 font-bold text-lg uppercase">
+                <button className="bg-[#FDC700] hover:bg-[#61CE70] hover:cursor-pointer rounded-br-xl rounded-tl-xl text-[#524c4e] px-5 py-2 text-lg uppercase">
                   connect
                 </button>
               </Link>
@@ -164,7 +122,7 @@ export default function Home() {
             the cloud.
           </p>
           <Link href="/">
-            <button className="bg-[#FABB05] hover:bg-[#61CE70] hover:cursor-pointer rounded-br-xl rounded-tl-xl text-[#524c4e] px-5 py-2 font-bold text-lg capitalize">
+            <button className="bg-[#FABB05] hover:bg-[#61CE70] hover:cursor-pointer rounded-br-xl rounded-tl-xl text-[#524c4e] px-5 py-2 text-lg capitalize">
               Let&apos;s chat
             </button>
           </Link>
@@ -197,6 +155,7 @@ export default function Home() {
             <form className="space-y-5">
               <div>
                 <input
+                  required
                   type="text"
                   placeholder="Your Name"
                   className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#FABB05] text-black"
@@ -205,6 +164,7 @@ export default function Home() {
 
               <div>
                 <input
+                  required
                   type="email"
                   placeholder="Your Email"
                   className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#FABB05]  text-black"
@@ -221,7 +181,7 @@ export default function Home() {
 
               <button
                 type="submit"
-                className="bg-[#FABB05] hover:bg-[#61CE70] hover:cursor-pointer rounded-br-xl rounded-tl-xl text-[#101828] px-5 py-2  text-lg capitalize"
+                className="bg-[#FABB05] hover:bg-[#61CE70] hover:cursor-pointer rounded-br-xl rounded-tl-xl text-[#524c4e] px-5 py-2  text-lg capitalize"
               >
                 Send Message
               </button>
